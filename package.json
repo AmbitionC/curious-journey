@@ -9,6 +9,7 @@
     "start": "npm run dev"
   },
   "dependencies": {
+    "tailwindcss": "^3.3.3",
     "umi": "^4.0.81"
   },
   "devDependencies": {
