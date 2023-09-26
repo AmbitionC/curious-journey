@@ -1,0 +1,8 @@
+{
+  "name": "curious-journey",
+  "short_name": "curious-journey",
+  "description": "小陈的网站",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff"
+}

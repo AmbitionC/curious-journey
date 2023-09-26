@@ -1,14 +1,28 @@
 import { defineConfig } from '@umijs/max';
 
 export default defineConfig({
+  title: 'curious-journey',
+  metas: [
+    {
+      name: 'keywords',
+      content: 'curious-journey',
+    },
+    {
+      name: 'description',
+      content: '小陈的个人网站',
+    },
+  ],
+  links: [
+    {
+      rel: 'manifest',
+      href: '/manifest.json',
+    },
+  ],
   antd: {},
-  access: {},
   model: {},
-  initialState: {},
   request: {},
-  layout: {
-    title: '@umijs/max',
-  },
+  theme: {},
+  hash: true,
   routes: [
     {
       path: '/',
@@ -19,17 +33,11 @@ export default defineConfig({
       path: '/home',
       component: './Home',
     },
-    {
-      name: '权限演示',
-      path: '/access',
-      component: './Access',
-    },
-    {
-      name: ' CRUD 示例',
-      path: '/table',
-      component: './Table',
-    },
   ],
+  history: {
+    type: 'browser',
+  },
   npmClient: 'pnpm',
+  tailwindcss: {},
 });
 
