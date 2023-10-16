@@ -2,6 +2,7 @@ import { defineConfig } from '@umijs/max';
 
 export default defineConfig({
   title: 'curious-journey',
+  favicons: ['/favicon.ico'],
   metas: [
     {
       name: 'keywords',
@@ -26,11 +27,11 @@ export default defineConfig({
   routes: [
     {
       path: '/',
-      redirect: '/home',
+      redirect: '/homepage',
     },
     {
       name: '首页',
-      path: '/home',
+      path: '/homepage',
       component: './Home',
     },
   ],
@@ -40,4 +41,3 @@ export default defineConfig({
   npmClient: 'pnpm',
   tailwindcss: {},
 });
-

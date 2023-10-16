@@ -1,7 +1,7 @@
 import { RequestConfig, history } from '@umijs/max';
+import 'animate.css';
 import { message } from 'antd';
 import { getApiDomain } from './utils';
-import 'animate.css';
 
 message.config({
   maxCount: 1,
@@ -57,7 +57,7 @@ export const request: RequestConfig = {
         cancelFlag = true;
         localStorage.removeItem('token');
         setTimeout(() => {
-          history.push('/home?login=true', {
+          history.push('/homepage?login=true', {
             pathname: location.pathname,
             search: location.search,
           });

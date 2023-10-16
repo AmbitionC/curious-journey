@@ -1,9 +1,5 @@
-
-
 const HomePage: React.FC = () => {
-  return (
-    <div>123</div>
-  );
+  return <div></div>;
 };
 
 export default HomePage;

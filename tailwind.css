@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.button-primary {
+  @apply bg-[#F59E50] border-[1px] border-[#F59E50] text-black py-2 px-4 rounded cursor-pointer hover:bg-opacity-80 text-center text-base;
+}
+
+.button-secondary {
+  @apply border-[#F59E50] border-[1px] text-white py-2 px-4 rounded cursor-pointer hover:bg-opacity-10 hover:bg-black text-center text-base;
+}
+
+.button-primary-sm {
+  @apply bg-[#F59E50] border-[1px] border-[#F59E50] text-black py-1 px-2 rounded cursor-pointer hover:bg-opacity-80 text-center text-sm;
+}
+
+.button-secondary-sm {
+  @apply border-[#F59E50] border-[1px] text-white py-1 px-2 rounded cursor-pointer hover:bg-opacity-10 hover:bg-black text-center text-sm;
+}
+
+.auto-margin-top {
+  margin-top: auto;
+}
+
+.text-highlight {
+  @apply text-[#000];
+}
+
+.bg-highlight {
+  @apply bg-[#F59E50];
+}
+
+.border-highlight {
+  @apply border-[#F59E50];
+}
+.max-w-8xl {
+  max-width: 1800px;
+  width: 100%;
+}
+.button-disabled-sm {
+  @apply bg-gray-300 border-gray-300 text-gray-500 py-1 px-4 rounded text-center text-sm;
+}

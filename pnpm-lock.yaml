@@ -20,6 +20,9 @@ dependencies:
   antd:
     specifier: ^5.9.3
     version: registry.npmjs.org/antd@5.9.3(react-dom@18.2.0)(react@18.2.0)
+  styled-components:
+    specifier: 6.0.8
+    version: registry.npmjs.org/styled-components@6.0.8(react-dom@18.2.0)(react@18.2.0)
 
 devDependencies:
   '@types/react':
@@ -10649,6 +10652,7 @@ packages:
     name: pify
     version: 4.0.1
     engines: {node: '>=6'}
+    requiresBuild: true
     dev: false
 
   registry.npmjs.org/pino-abstract-transport@0.5.0:
