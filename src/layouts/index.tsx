@@ -10,9 +10,9 @@ import './index.less';
 function Layout(): React.ReactElement {
   return (
     <ConfigProvider>
-      <div className="w-full bg-[#f7f7f7]">
+      <div className="w-full bg-[#f7f7f7] font-serif">
         <Header />
-        <div className="w-full min-h-[calc(100vh-64px)] overflow-y-auto">
+        <div className="w-full min-h-[100vh] overflow-y-auto">
           <Outlet />
         </div>
         <Footer />

@@ -29,7 +29,7 @@ const LinkIcon = styled.a`
  */
 function Links(): React.ReactElement {
   return (
-    <div className="ml-[4rem]">
+    <div className="ml-[10rem]">
       <Avatar className="avatar" src={avatarImg} />
       <SocialLinks>
         {SOCIAL_LINKS.map((item) => {

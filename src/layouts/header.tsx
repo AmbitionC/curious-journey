@@ -7,7 +7,7 @@ import Links from './links';
  */
 function Header(): React.ReactElement {
   return (
-    <div className="sticky top-[8rem] z-[99] flex mx-auto justify-center">
+    <div className="pt-[8rem] z-[99] flex mx-auto justify-center">
       <Navigators />
       <Links />
     </div>

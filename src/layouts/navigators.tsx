@@ -36,7 +36,7 @@ const NAV_LIST = [
 ];
 
 const Description = styled.div`
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 200;
   color: #888;
   margin: 0.2rem 0rem;
@@ -82,7 +82,7 @@ function Navigators({
   return (
     <div className="mt-5">
       <Link
-        className={'cursor-pointer text-highlight font-semibold text-2xl'}
+        className={'cursor-pointer text-highlight font-semibold text-3xl'}
         to="/homepage"
       >
         <span className="bg-gradient-to-r from-blue-400 to-orange-200 text-transparent bg-clip-text">
@@ -99,7 +99,7 @@ function Navigators({
             const isActive = pathname === item.to;
             return (
               <Link
-                className={`flex items-center text-base cursor-pointer hover:text-[#222] duration-300 ${
+                className={`flex items-center text-base cursor-pointer hover:text-[#222] hover:border-b hover:border-black duration-300 ${
                   isActive ? 'text-highlight' : ''
                 }`}
                 key={index}

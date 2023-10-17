@@ -1,0 +1,23 @@
+.blog-title::before {
+  content: " ";
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  background: #1f1f1f;
+  transition: all .2s cubic-bezier(.4, 0, 1, 1);
+}
+
+.blog-title:hover::before {
+  content: " ";
+  position: absolute;
+  top: 10px;
+  left: -26px;
+  width: 10px;
+  height: 4px;
+  border-radius: 2px;
+  background: #1f1f1f;
+  transition: all .2s cubic-bezier(.4, 0, 1, 1);
+}
