@@ -14,3 +14,11 @@ export function getApiDomain(): string {
     return 'https://api.curious-journey.cn/';
   }
 }
+
+/**
+ * @description 是否为移动端
+ * @returns {boolean}
+ */
+export function isMobile(): boolean {
+  return /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent);
+}

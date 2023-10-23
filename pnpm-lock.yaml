@@ -20,6 +20,12 @@ dependencies:
   antd:
     specifier: ^5.9.3
     version: registry.npmjs.org/antd@5.9.3(react-dom@18.2.0)(react@18.2.0)
+  highlight.js:
+    specifier: ^11.9.0
+    version: registry.npmjs.org/highlight.js@11.9.0
+  marked:
+    specifier: ^9.1.2
+    version: registry.npmjs.org/marked@9.1.2
   styled-components:
     specifier: 6.0.8
     version: registry.npmjs.org/styled-components@6.0.8(react-dom@18.2.0)(react@18.2.0)
@@ -8498,6 +8504,13 @@ packages:
     hasBin: true
     dev: false
 
+  registry.npmjs.org/highlight.js@11.9.0:
+    resolution: {integrity: sha512-fJ7cW7fQGCYAkgv4CPfwFHrfd/cLS4Hau96JuJ+ZTOWhjnhoeN1ub1tFmALm/+lW5z4WCAuAV9bm05AP0mS6Gw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/highlight.js/-/highlight.js-11.9.0.tgz}
+    name: highlight.js
+    version: 11.9.0
+    engines: {node: '>=12.0.0'}
+    dev: false
+
   registry.npmjs.org/history@4.10.1:
     resolution: {integrity: sha512-36nwAD620w12kuzPAsyINPWJqlNbij+hpK1k9XRloDtym8mxzGYl2c17LnV6IAGB2Dmg4tEa7G7DlawS0+qjew==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/history/-/history-4.10.1.tgz}
     name: history
@@ -9870,6 +9883,14 @@ packages:
     name: map-obj
     version: 4.3.0
     engines: {node: '>=8'}
+    dev: false
+
+  registry.npmjs.org/marked@9.1.2:
+    resolution: {integrity: sha512-qoKMJqK0w6vkLk8+KnKZAH6neUZSNaQqVZ/h2yZ9S7CbLuFHyS2viB0jnqcWF9UKjwsAbMrQtnQhdmdvOVOw9w==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/marked/-/marked-9.1.2.tgz}
+    name: marked
+    version: 9.1.2
+    engines: {node: '>= 16'}
+    hasBin: true
     dev: false
 
   registry.npmjs.org/mathml-tag-names@2.1.3:

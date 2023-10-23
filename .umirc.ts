@@ -32,8 +32,18 @@ export default defineConfig({
     {
       name: '首页',
       path: '/homepage',
-      component: './Home',
+      component: './Homepage',
     },
+    {
+      name: '博客',
+      path: '/blogs',
+      component: './Blogs',
+    },
+    {
+      name: '关于',
+      path: '/about',
+      component: './About',
+    }
   ],
   history: {
     type: 'browser',

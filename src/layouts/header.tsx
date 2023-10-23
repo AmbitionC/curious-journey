@@ -1,5 +1,6 @@
 import Navigators from './navigators';
 import Links from './links';
+import { isMobile } from '@/utils';
 
 /**
  * @description 头部菜单
@@ -7,9 +8,9 @@ import Links from './links';
  */
 function Header(): React.ReactElement {
   return (
-    <div className="pt-[8rem] z-[99] flex mx-auto justify-center">
+    <div className="pt-[7rem] z-[99] flex mx-auto justify-center">
       <Navigators />
-      <Links />
+      {!isMobile() && <Links />}
     </div>
   );
 }

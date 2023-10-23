@@ -23,6 +23,36 @@ export const SOCIAL_LINKS = [
 ];
 
 /**
+ * @description 导航栏文本与菜单
+ */
+export const NAV_LIST = [
+  {
+    text: 'HomePage',
+    to: '/homepage',
+  },
+  {
+    text: 'Blogs',
+    to: '/blogs',
+  },
+  {
+    text: 'About',
+    to: '/about',
+  },
+  {
+    text: 'Works',
+    to: '/works',
+  },
+  {
+    text: 'Talks',
+    to: '/talks',
+  },
+  {
+    text: 'Publication',
+    to: '/publication',
+  },
+];
+
+/**
  * @description 列表上展示的博文
  */
 export const HOMEPAGE_BLOGS = [
@@ -50,4 +80,15 @@ export const HOMEPAGE_BLOGS = [
     title: '阿里云天池2018年数据可视化竞赛亚军方案总结',
     link: '#/Blogs/Blog_3',
   },
+  {
+    date: '2018-12-24',
+    tags: ['Visualization', 'Data Mining', 'Competition'],
+    title: '阿里云天池2018年数据可视化竞赛亚军方案总结',
+    link: '#/Blogs/Blog_3',
+  },
 ]
+
+/**
+ * @description 首页最大展示数量
+ */
+export const MAX_BLOG_LENGTH = 4;
