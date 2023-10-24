@@ -52,43 +52,38 @@ export const NAV_LIST = [
   },
 ];
 
-/**
- * @description 列表上展示的博文
- */
-export const HOMEPAGE_BLOGS = [
-  {
-    date: '2019-06-16',
-    tags: ['Visualization', 'Competition'],
-    title: '阿里云天池2019年数据可视化竞赛亚军方案总结',
-    link: '#/Blogs/Blog_6',
-  },
-  {
-    date: '2019-03-20',
-    tags: ['Visualization', 'Data-Mining'],
-    title: 'TelCoVis：基于电信数据的城市人口移动的视觉探索系统',
-    link: '#/Blogs/Blog_5',
-  },
-  {
-    date: '2018-12-24',
-    tags: ['Visualization', 'Data Mining', 'Competition'],
-    title: '阿里云天池2018年数据可视化竞赛亚军方案总结',
-    link: '#/Blogs/Blog_3',
-  },
-  {
-    date: '2018-12-24',
-    tags: ['Visualization', 'Data Mining', 'Competition'],
-    title: '阿里云天池2018年数据可视化竞赛亚军方案总结',
-    link: '#/Blogs/Blog_3',
-  },
-  {
-    date: '2018-12-24',
-    tags: ['Visualization', 'Data Mining', 'Competition'],
-    title: '阿里云天池2018年数据可视化竞赛亚军方案总结',
-    link: '#/Blogs/Blog_3',
-  },
-]
-
-/**
- * @description 首页最大展示数量
- */
-export const MAX_BLOG_LENGTH = 4;
+// markdown文档OSS文件资源地址
+// TODO：用后端接口维护
+export const OSS_RESOURCES = {
+  about: 'https://ambitionc-blog.oss-cn-hongkong.aliyuncs.com/about/about.md',
+  blogs: [
+    {
+      date: '2023-10-20',
+      tags: ['AIGC', 'ChatGPT'],
+      title: 'Prompt工程原理',
+      link: '',
+      isOnHomepage: true,
+    },
+    {
+      date: '2023-10-20',
+      tags: ['Investment', 'Data Mining', 'Visualization'],
+      title: '低估值：追求投资确定性',
+      link: '',
+      isOnHomepage: true,
+    },
+    {
+      date: '2019-06-16',
+      tags: ['Visualization', 'Competition'],
+      title: '阿里云天池2019年数据可视化竞赛亚军方案总结',
+      link: '',
+      isOnHomepage: true,
+    },
+    {
+      date: '2018-12-24',
+      tags: ['Visualization', 'Data Mining', 'Competition'],
+      title: '阿里云天池2018年数据可视化竞赛亚军方案总结',
+      link: '',
+      isOnHomepage: true,
+    },
+  ]
+};

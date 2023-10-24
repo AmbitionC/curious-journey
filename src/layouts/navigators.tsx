@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from '@umijs/max';
+import { Link, useLocation } from '@umijs/max';
 import styled from 'styled-components';
 import { NAV_LIST } from '@/constants';
 import { isMobile } from '@/utils';
@@ -17,6 +17,7 @@ const Description = styled.div`
  * @returns {React.ReactElement}
  */
 function Navigators(): React.ReactElement {
+  const location = useLocation();
   const pathname = location.pathname === '/' ? '/homepage' : location.pathname;
 
   return (
