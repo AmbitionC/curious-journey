@@ -47,8 +47,8 @@ export const NAV_LIST = [
     to: '/talks',
   },
   {
-    text: 'Publication',
-    to: '/publication',
+    text: 'Publications',
+    to: '/publications',
   },
 ];
 
@@ -56,6 +56,8 @@ export const NAV_LIST = [
 // TODO：用后端接口维护
 export const OSS_RESOURCES = {
   about: 'https://ambitionc-blog.oss-cn-hongkong.aliyuncs.com/about/about.md',
+  talks: 'https://ambitionc-blog.oss-cn-hongkong.aliyuncs.com/talks/talks.md',
+  publications: 'https://ambitionc-blog.oss-cn-hongkong.aliyuncs.com/publications/publications.md',
   blogs: [
     {
       date: '2023-10-20',

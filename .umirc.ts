@@ -43,6 +43,21 @@ export default defineConfig({
       name: '关于',
       path: '/about',
       component: './About',
+    },
+    {
+      name: '演讲',
+      path: '/talks',
+      component: './Talks',
+    },
+    {
+      name: '论文',
+      path: '/publications',
+      component: './Publications'
+    },
+    {
+      name: '产品',
+      path: '/works',
+      component: './Works',
     }
   ],
   history: {

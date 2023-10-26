@@ -3,13 +3,13 @@ import { OSS_RESOURCES } from '@/constants';
 import Markdown from '@/components/markdown';
 
 /**
- * @description 个人信息
+ * @description 演讲
  * @returns {React.ReactElement}
  */
-function About(): React.ReactElement {
-  const { about: url } = OSS_RESOURCES;
+function Talks(): React.ReactElement {
+  const { talks: url } = OSS_RESOURCES;
 
   return <Markdown url={url} />;
 }
 
-export default About;
+export default Talks;
