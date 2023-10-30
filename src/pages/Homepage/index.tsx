@@ -1,4 +1,5 @@
 import React from 'react';
+import { getBlogsUrl } from '@/utils';
 import { OSS_RESOURCES } from '@/constants';
 import './index.less';
 
@@ -14,7 +15,7 @@ function HomePage(): React.ReactElement {
       {/* 最近的博客列表 */}
       {/* TODO：博客列表从接口获取 */}
       <div className="pt-[1rem] pl-[1rem]">
-        {blogs.map((blog, index) => {
+        {blogs.reverse().map((blog, index) => {
           const { date, title, tags, link, isOnHomepage } = blog;
           if (!isOnHomepage) return null;
           return (
@@ -24,7 +25,7 @@ function HomePage(): React.ReactElement {
               )}`}</div>
               <a
                 className="blog-title relative font-thin text-xl text-[#444] leading-4 hover:text-black hover:border-b hover:border-black"
-                href={link}
+                href={getBlogsUrl(link)}
               >
                 {title}
               </a>

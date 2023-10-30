@@ -40,6 +40,11 @@ export default defineConfig({
       component: './Blogs',
     },
     {
+      name: '博客内容',
+      path: '/blogContent',
+      component: './BlogContent',
+    },
+    {
       name: '关于',
       path: '/about',
       component: './About',
