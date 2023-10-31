@@ -1,4 +1,5 @@
 import React from 'react';
+import { getBlogsUrl } from '@/utils';
 import { OSS_RESOURCES } from '@/constants';
 
 /**
@@ -20,7 +21,7 @@ function Blogs(): React.ReactElement {
               )}`}</div>
               <a
                 className="blog-title relative font-thin text-xl text-[#444] leading-4 hover:text-black hover:border-b hover:border-black"
-                href={link}
+                href={getBlogsUrl(link)}
               >
                 {title}
               </a>
