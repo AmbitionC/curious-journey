@@ -129,5 +129,12 @@ export const OSS_RESOURCES = {
       link: 'https://ambitionc-blog.oss-cn-hongkong.aliyuncs.com/blogs/blog-10.md',
       isOnHomepage: true,
     },
+    {
+      date: '2023-08-02',
+      tags: ['Investment', 'Data Mining', 'Visualization'],
+      title: '低估值：投资确定性分析',
+      link: 'https://ambitionc-blog.oss-cn-hongkong.aliyuncs.com/blogs/blog-11.md',
+      isOnHomepage: true,
+    }
   ]
 };
