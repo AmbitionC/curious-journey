@@ -31,17 +31,17 @@ export const NAV_LIST = [
     to: '/homepage',
   },
   {
-    text: 'Blogs',
-    to: '/blogs',
-  },
-  {
     text: 'About',
     to: '/about',
   },
   {
-    text: 'Works',
-    to: '/works',
+    text: 'Blogs',
+    to: '/blogs',
   },
+  // {
+  //   text: 'Works',
+  //   to: '/works',
+  // },
   {
     text: 'Talks',
     to: '/talks',

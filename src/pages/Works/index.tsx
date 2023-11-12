@@ -4,7 +4,7 @@ import React from 'react';
  * @returns {React.ReactElement}
  */
 function Works(): React.ReactElement {
-  return <div>Works Todo</div>;
+  return <div>Todo</div>;
 }
 
 export default Works;
