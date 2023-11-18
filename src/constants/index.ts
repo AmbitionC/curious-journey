@@ -38,10 +38,6 @@ export const NAV_LIST = [
     text: 'Blogs',
     to: '/blogs',
   },
-  // {
-  //   text: 'Works',
-  //   to: '/works',
-  // },
   {
     text: 'Talks',
     to: '/talks',
@@ -135,6 +131,13 @@ export const OSS_RESOURCES = {
       title: '低估值：投资确定性分析',
       link: 'https://ambitionc-blog.oss-cn-hongkong.aliyuncs.com/blogs/blog-11.md',
       isOnHomepage: true,
-    }
+    },
+    {
+      date: '2023-08-02',
+      tags: ['Front-End'],
+      title: 'FEDAY-杭州',
+      link: 'https://ambitionc-blog.oss-cn-hongkong.aliyuncs.com/blogs/blog-12.md',
+      isOnHomepage: true,
+    },
   ]
 };
